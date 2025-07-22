@@ -1,57 +1,61 @@
-# Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction
 
-This repository presents a **machine learning project** to predict passenger survival on the Titanic using historical passenger data.
+This repository presents a **machine learning project** to predict passenger survival on the Titanic using historical data.
 
-## Dataset
+## 📂 Dataset
 
-The dataset used in this project is provided as `Titanic-Dataset.csv`. It contains comprehensive information about each passenger, including:
+The included file, `Titanic-Dataset.csv`, contains details about each passenger:
 
-- **PassengerId**: Unique identifier for each passenger
-- **Survived**: Survival outcome (0 = No, 1 = Yes)
-- **Pclass**: Passenger class (1st, 2nd, 3rd)
-- **Name**: Passenger name
-- **Sex**: Gender
-- **Age**: Age in years
-- **SibSp**: Number of siblings/spouses aboard
-- **Parch**: Number of parents/children aboard
-- **Ticket**: Ticket number
-- **Fare**: Ticket fare
-- **Cabin**: Cabin number
-- **Embarked**: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
+- 🆔 **PassengerId**: Unique passenger identifier
+- 💡 **Survived**: Outcome (0 = No, 1 = Yes)
+- 🎟️ **Pclass**: Ticket class (1st, 2nd, 3rd)
+- 🧑‍🤝‍🧑 **Name**: Passenger's name
+- ⚧️ **Sex**: Gender
+- 🎂 **Age**: Age in years
+- 👪 **SibSp**: # of siblings/spouses aboard
+- 👨‍👩‍👧‍👦 **Parch**: # of parents/children aboard
+- 🪪 **Ticket**: Ticket number
+- 💲 **Fare**: Passenger fare
+- 🚪 **Cabin**: Cabin number
+- 🛳️ **Embarked**: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
-## Project Workflow
+## 🔎 Project Workflow
 
-- **Data Exploration**  
-  Explore distributions, relationships, and patterns among variables that might affect survivability, such as class, gender, age, and family connections.
-- **Data Preprocessing**  
-  Clean missing values (mainly from Age and Cabin), encode categorical features (Sex, Embarked), and prepare the dataset for modeling.
-- **Feature Engineering**  
-  Create or transform features to enhance prediction performance (e.g., family size, is_alone features).
-- **Modeling**  
-  Build a binary classification model (such as logistic regression or decision trees) to predict the `Survived` column.
-- **Evaluation**  
-  Analyze the model’s accuracy, recall, and feature importance to interpret prediction results.
+- **Data Exploration** 📊  
+  Analyze characteristics affecting survivability, such as class, gender, age, and family connections.
 
-## How to Use
+- **Data Preprocessing** 🧹  
+  Clean missing data (especially Age and Cabin), encode categorical variables, and prepare for modeling.
 
-1. **Clone** this repo.
-2. **Install** Python dependencies from `requirements.txt`.
-3. Open the Jupyter notebook or relevant script.
-4. **Run** the analysis with `Titanic-Dataset.csv` in your working directory.
+- **Feature Engineering** 🏗️  
+  Create and transform features to boost predictive performance.
 
-## Technologies Used
+- **Modeling** 🤖  
+  Train a machine learning model (e.g., logistic regression, decision tree) to predict survival.
 
-- Python 3
+- **Evaluation** 📈  
+  Assess model performance and interpret results.
+
+## 🛠️ Technologies Used
+
+- Python 3 🐍
 - pandas & numpy
 - scikit-learn
-- matplotlib & seaborn (for visualization)
-- Jupyter Notebook
+- matplotlib & seaborn (data visualization) 📊
+- Jupyter Notebook 📒
 
-## Contribution
+## 🚀 Usage
 
-Contributions are welcome! Please feel free to fork the repository, open issues, or submit pull requests.
+1. **Clone** this repo.
+2. **Install** Python dependencies (`requirements.txt`).
+3. Place `Titanic-Dataset.csv` in your working directory.
+4. **Run** the provided notebook or scripts to reproduce the results.
 
-## License
+## 🤝 Contribution
 
-This project is for educational purposes and uses public historical data.
+Contributions are welcome! Please **fork**, **star**, or submit pull requests to extend the analysis or improve the model.
+
+## 📄 License
+
+This project is for educational use with public historical data.
 
